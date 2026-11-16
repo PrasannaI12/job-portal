@@ -9,7 +9,7 @@ public interface JobPostService {
 
     JobPostResponseDto createJob(Long userId, JobPostCreationDto dto);
 
-    List<JobPostResponseDto> getAllJobs();
+    List<JobPostResponseDto> getAllJobs(String keyword);
 
     JobPostResponseDto getJobById(Long jobId);
 
