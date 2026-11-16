@@ -47,9 +47,14 @@ public class JobPostServiceImpl implements JobPostService {
     }
 
     @Override
-    public List<JobPostResponseDto> getAllJobs() {
-        return jobPostRepository.findAll()
-                .stream()
+    public List<JobPostResponseDto> getAllJobs(String keyword) {
+        List<JobPost> jobs;
+        if (keyword != null && !keyword.isBlank()) {
+            jobs = jobPostRepository.searchByKeyword(keyword.trim());
+        } else {
+            jobs = jobPostRepository.findAll();
+        }
+        return jobs.stream()
                 .map(mapper::toDto)
                 .toList();
     }

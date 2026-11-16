@@ -32,8 +32,10 @@ public class JobPostController {
     }
 
     @GetMapping
-    public ResponseEntity<List<JobPostResponseDto>> getAllJobs() {
-        return ResponseEntity.ok(jobPostService.getAllJobs());
+    public ResponseEntity<List<JobPostResponseDto>> getAllJobs(
+            @RequestParam(required = false) String keyword
+    ) {
+        return ResponseEntity.ok(jobPostService.getAllJobs(keyword));
     }
 
     @GetMapping("/{jobId}")
