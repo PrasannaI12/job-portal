@@ -1,0 +1,57 @@
+.my-card {
+  width: 233px;
+  max-width: 300px;
+  height: 300px;
+  padding: 20px 18px;
+  margin-right: 20px;
+  text-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.my-card:hover {
+  box-shadow: 0px 14px 40px rgba(30, 10, 58, 0.1);
+}
+
+.my-img {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+}
+
+.my-body {
+  border: none;
+  display: inline-block
+}
+
+.my-title {
+  margin-top: 12px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.my-text {
+  margin-top: 27px;
+  color: #474D6A;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: inherit;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  max-height: 36px;
+}
+
+.jobs-btn {
+  margin-top: 24px;
+  background: #EDF4FF;
+  font-weight: 700;
+  border-radius: 50px;
+  font-size: 16px;
+  color: #275DF5;
+  padding: 11px 20px;
+  line-height: 20px;
+}

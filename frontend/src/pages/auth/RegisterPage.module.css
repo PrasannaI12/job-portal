@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+}
+
+.registerWrapper {
+  width: 800px;
+  box-shadow: 0 6px 12px rgb(213, 211, 211);
+  background: #fff;
+  border-radius: 20px;
+  padding: 0 73px 40px 50px;
+  min-height: 500px;
+}
+
+.globalTitle {
+  justify-self: left;
+  margin: 40px 0 0;
+  color: #121224;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.headingHelp {
+  color: #657095;
+  margin: 4px 0 40px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.myField {
+  margin-top: 30px;
+}
+
+.required::after {
+  content: "*";
+  color: red;
+}
+
+.input {
+  padding: 12px 16px;
+  border-radius: 16px;
+}
+
+.confirmText {
+  margin-top: 30px;
+  color: #657095;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+}
+
+.terms {
+  text-decoration: none;
+  outline: none;
+  color: #275df5;
+  font-weight: 500;
+}
+
+.registerBtn {
+  background-color: #275df5;
+  margin-top: 15px;
+  width: fit-content;
+  opacity: .4;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 9px 14px 11px;
+  border-radius: 23px;
+  font-weight: 700;
+}

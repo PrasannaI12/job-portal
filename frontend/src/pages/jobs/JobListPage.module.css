@@ -1,0 +1,9 @@
+.jobListingContainer {
+  margin: 23px auto;
+  width: calc(100% - 800px);
+}
+
+.listItem {
+  margin-bottom: 16px;
+  display: list-item;
+}

@@ -1,0 +1,93 @@
+.myHeader {
+  height: 72px;
+  border: none;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.scrolled {
+  box-shadow: 0 6px 12px rgba(30, 10, 58, .08);
+}
+
+.logoDiv {
+    margin-right: 100px;
+}
+
+.myNav {
+  width: 40%;
+  justify-content: flex-start;
+}
+
+.logo {
+  height: 60px;
+  width: 60px;
+}
+
+.navLink {
+  margin-right: 40px;
+  color: #474d6a;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+
+.navLinks {
+  border-bottom: 4px solid transparent;
+  padding-bottom: 5px;
+}
+
+.navLinks:hover {
+  border-bottom-color: red;
+  background-color: white;
+  transition: all 1s ease 4ms;
+}
+
+.employers {
+  margin-left: 20px;
+  color: #474d6a;
+  font-weight: 500;
+  line-height: 20px;
+  text-decoration: none;
+  border: 1px solid rgba(204, 199, 199, 0.966);
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+.employerLink {
+  border-bottom: 4px solid transparent;
+  padding-bottom: 5px;
+}
+
+.employerLink:hover {
+  border-bottom-color: red;
+  transition: all 1s ease 4ms;
+}
+
+.loginBtn {
+  margin-right: 10px;
+  width: 82px;
+}
+
+.loginBtn:hover {
+  color: #fff;
+}
+
+.registerBtn {
+  width: 101px;
+  color: white;
+}
+
+.loginBtn, .registerBtn {
+  height: 40px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  outline: none;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 50px;
+}

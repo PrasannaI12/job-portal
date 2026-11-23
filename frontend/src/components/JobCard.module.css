@@ -1,0 +1,247 @@
+.layoutWrapper {
+  border-radius: 20px;
+  width: 100%;
+  padding: 24px 24px 20px;
+  box-shadow: 0 6px 12px rgba(30, 10, 58, .06);
+  position: relative;
+}
+
+.layoutWrapper:hover {
+  box-shadow: 0 14px 40px rgba(30, 10, 58, .1);
+  cursor: pointer;
+}
+
+.row1 {
+  width: calc(100% - 80px);
+}
+
+.title {
+  line-height: 22px;
+  color: #121224;
+  max-width: 100%;
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.imagewrap {
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  width: 50px;
+  height: 50px;
+}
+
+.logoImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 14px;
+  border: 1px solid #e7e7f1;
+  object-fit: contain;
+}
+
+.row2 {
+  width: calc(100% - 80px);
+  font-size: 14px;
+  margin-right: 4px;
+}
+
+.compName {
+  line-height: 26px;
+  color: #474d6a;
+  width: auto;
+  max-width: 250px;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.row3 {
+  margin: 16px 0 0;
+  color: #474d6a;
+  display: flex;
+}
+
+.expWrap {
+  display: flex;
+  padding-right: 19px;
+}
+
+.expIcon {
+  max-height: 18px;
+  display: inline-block;
+  color: #717b9e;
+  font-size: 16px;
+  margin-right: 8px;
+  width: 16px;
+  height: 16px;
+  padding-right: 0;
+  position: relative;
+  bottom: 5px;
+}
+
+.expwdth {
+  display: inline-block;
+  max-width: 139px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.locWrap {
+  padding-right: 30px;
+  display: flex;
+  position: relative;
+}
+
+.locWrap::before {
+  position: absolute;
+  content: "";
+  height: 14px;
+  border: none;
+  width: 1px;
+  border-radius: 1px;
+  background: #e7e7f1;
+  margin-right: 0;
+  top: 2px;
+  left: -10px;
+}
+
+.locIcon {
+  display: inline-block;
+  color: #717b9e;
+  font-size: 16px;
+  width: 16px;
+  margin-right: 8px;
+  height: 16px;
+  position: relative;
+  top: -5px;
+}
+
+.locWdth {
+  display: inline-block;
+  max-width: 141px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.row4 {
+  margin-top: 9px;
+  color: #474d6a;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.descIcon {
+  display: inline-block;
+  color: #717b9e;
+  margin-right: 8px;
+  width: 16px;
+  height: 16px;
+  font-size: 16px;
+}
+
+.jobDesc {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  width: 100%;
+}
+
+.row5 {
+  max-height: 25px;
+  width: 100%;
+}
+
+.tags {
+  max-height: 21px;
+  overflow: hidden;
+  margin-top: 10px;
+  white-space: normal;
+  text-overflow: unset;
+  display: inline-block;
+  width: 100%;
+}
+
+.tagLi:first-child {
+  padding-left: 0;
+}
+
+.tagLi {
+  color: #657095;
+  padding-left: 20px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  display: inline;
+  position: relative;
+}
+
+ul .tagLi:not(:first-child)::before {
+  position: absolute;
+  content: "";
+  border-radius: 50%;
+  height: 2px;
+  width: 2px;
+  background: #657095;
+  border: none;
+  top: 8px;
+  left: 8px;
+  right: auto;
+}
+
+.row6 {
+  display: flex;
+  align-items: center;
+  margin-top: 13px;
+  min-height: 18px;
+  height: auto;
+  position: relative;
+}
+
+.jobPostDay {
+  line-height: 15px;
+  color: #657095;
+  font-weight: 400;
+  font-size: 11px;
+}
+
+.jobPostDay::before {
+  content: icon;
+}
+
+.saveIcon {
+  color: #121224;
+  margin-right: 8px;
+  font-size: 16px;
+}
+
+/* .saveIcon:hover {
+  color: currentColor;
+} */
+
+.saveJobTag {
+  display: inline-block;
+  color: #474d6a;
+  position: absolute;
+  right: 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.saveJobTag:hover,
+.saveJobTag:hover .saveIcon  {
+  color: #275df5;
+}

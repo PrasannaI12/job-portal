@@ -1,0 +1,11 @@
+footer {
+  width: 100%;
+  height: 50px;
+}
+
+.socialMedia {
+  text-decoration: none;
+  color: inherit;
+  margin: 5px;
+  font-size: large;
+}
